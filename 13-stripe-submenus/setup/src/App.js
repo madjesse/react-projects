@@ -5,8 +5,11 @@ import Sidebar from './Sidebar'
 import Submenu from './Submenu'
 function App() {
   return (
-    <>
-      <h2>stripe submenus setup</h2>
+    <>    
+      <Navbar />
+      <Sidebar />
+      <Hero />
+      <Submenu />
     </>
   )
 }
